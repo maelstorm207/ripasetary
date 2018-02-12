@@ -1,2 +1,2 @@
 # ripasetary
-[Обычная ссылка в строке](https://www.google.com)
+[Вики](https://github.com/maelstorm207/ripasetary.wiki.git)
