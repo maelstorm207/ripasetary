@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Design software</title>
+</head>
+<body>
+	<p id="Alex"></p> 
+<script> 
+var example = '{' +
+'"P1":[' +
+  '{ "description" : "Поток персонала 1",'+
+    '"title" : "P1_1"'+
+  '},'+
+  '{ "description" : "Поток персонала 2",'+
+    '"title" : "P1_2 "'+
+  '},'+
+  '{ "description" : "Поток персонала 3",'+
+    '"title" : "P1_3"'+
+  '}]}';
+obj = JSON.parse(example); 
+document.getElementById("Alex").innerHTML = 
+obj.P1[1].description;
+alert("");
+</script>
+</body>
+</html>
